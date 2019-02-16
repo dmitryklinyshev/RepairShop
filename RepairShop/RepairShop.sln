@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.28016.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairShop", "RepairShop\RepairShop.csproj", "{E806E17D-21E1-4574-A4E9-6371932647C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepairShop", "AbstractRepairShop\AbstractRepairShop.csproj", "{8B2E893F-67E0-40BC-90BD-846F67534C38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepairShopModel", "AbstractRepairShop\AbstractRepairShopModel.csproj", "{BC7EC2CB-395C-421A-9D81-A1EC5D1E2908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepairShopServiceDAL", "AbstractRepairShopServiceDAL\AbstractRepairShopServiceDAL.csproj", "{551431FB-CC07-4F1A-9A97-8FEFCC7D2FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepairShopServiceImpList", "AbstractRepairShopServiceImpList\AbstractRepairShopServiceImpList.csproj", "{D78ACD87-5B6C-4449-A3A7-D90063D5666B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepairShopServiceImplement", "AbstractRepairShopServiceImplement\AbstractRepairShopServiceImplement.csproj", "{1E97CEFE-B6A4-41B6-A9C6-6F471BC17828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +23,22 @@ Global
 		{E806E17D-21E1-4574-A4E9-6371932647C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E806E17D-21E1-4574-A4E9-6371932647C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E806E17D-21E1-4574-A4E9-6371932647C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B2E893F-67E0-40BC-90BD-846F67534C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2E893F-67E0-40BC-90BD-846F67534C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2E893F-67E0-40BC-90BD-846F67534C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2E893F-67E0-40BC-90BD-846F67534C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7EC2CB-395C-421A-9D81-A1EC5D1E2908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7EC2CB-395C-421A-9D81-A1EC5D1E2908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7EC2CB-395C-421A-9D81-A1EC5D1E2908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7EC2CB-395C-421A-9D81-A1EC5D1E2908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551431FB-CC07-4F1A-9A97-8FEFCC7D2FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551431FB-CC07-4F1A-9A97-8FEFCC7D2FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551431FB-CC07-4F1A-9A97-8FEFCC7D2FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551431FB-CC07-4F1A-9A97-8FEFCC7D2FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78ACD87-5B6C-4449-A3A7-D90063D5666B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78ACD87-5B6C-4449-A3A7-D90063D5666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78ACD87-5B6C-4449-A3A7-D90063D5666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78ACD87-5B6C-4449-A3A7-D90063D5666B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E97CEFE-B6A4-41B6-A9C6-6F471BC17828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E97CEFE-B6A4-41B6-A9C6-6F471BC17828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E97CEFE-B6A4-41B6-A9C6-6F471BC17828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E97CEFE-B6A4-41B6-A9C6-6F471BC17828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
